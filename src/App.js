@@ -10,8 +10,7 @@ const App = () => {
     const newTours = tours.filter(tour => tour.id !== id);
     setTours(newTours);
   }
-
-  if(tours.length === 0) {
+   if(tours.length === 0) {
     return (
         <div className="refresh">
           <h2>No Tours Left</h2>
