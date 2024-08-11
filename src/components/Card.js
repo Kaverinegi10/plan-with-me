@@ -8,11 +8,8 @@ function Card({id, image,info,price,name, removeTour})  {
     function readmoreHandler() {
         setReadmore(!readmore);
     }
-
-
     return (
-        
-        <div className="card">
+         <div className="card">
 
             <img src={image} className="image"></img>
 
@@ -37,5 +34,4 @@ function Card({id, image,info,price,name, removeTour})  {
         
     );
 }
-
 export default Card;
