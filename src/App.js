@@ -19,8 +19,7 @@ const App = () => {
           </button>
         </div>
     );
-  }
-
+  } 
   return (
     <div className="App">
       <Tours tours={tours} removeTour={removeTour}></Tours>
